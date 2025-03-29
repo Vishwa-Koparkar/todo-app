@@ -1,0 +1,103 @@
+/* 🔹 Reset Everything */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 🔥 Full Page Layout */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f7fc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 80px;
+}
+
+/* 🔹 NAVBAR FIX */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 60px;
+  /* More space */
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #007bff;
+}
+
+/* 🔥 TASK BOX CENTER FIX */
+.container {
+  width: 70%;
+  max-width: 1000px;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* 🔹 TASK LIST FIX */
+.task-section {
+  width: 100%;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* 🔹 TASK ITEM FIX */
+.task-item {
+  background: #ffffff;
+  padding: 14px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  width: 100%;
+}
+
+/* 🔥 CHECKBOX FIX */
+.task-item input {
+  margin-right: 12px;
+}
+
+/* 🔹 DELETE BUTTON FIX */
+.delete-btn {
+  background: #dc3545;
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.delete-btn:hover {
+  background: #c82333;
+}
